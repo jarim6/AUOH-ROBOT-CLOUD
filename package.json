@@ -1,0 +1,27 @@
+{
+  "name": "auoh-robot-cloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarim6/AUOH-ROBOT-CLOUD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jarim6/AUOH-ROBOT-CLOUD/issues"
+  },
+  "homepage": "https://github.com/jarim6/AUOH-ROBOT-CLOUD#readme"
+}
