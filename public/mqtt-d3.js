@@ -161,11 +161,7 @@ const update_chart = () => {
         .attr("d", j6(joint_datas));
 };
 
-
-
-
-
-
+console.log('Here');
 const mqtt_client = mqtt.connect('wss://auoh-mqtt-broker.herokuapp.com/');
 mqtt_client.on('connect', () => {
     console.log('connected to mqtt broker');

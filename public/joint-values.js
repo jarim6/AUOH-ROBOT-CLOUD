@@ -10,7 +10,8 @@ mqtt_client.on('message', (topic, message) => {
 });
 */
 
-const mqtt_client = mqtt.connect('wss://jari-auoh-mqtt-broker.herokuapp.com//');
+//const mqtt_client = mqtt.connect('wss://jari-auoh-mqtt-broker.herokuapp.com/');
+const mqtt_client = mqtt.connect('wss://auoh-mqtt-broker.herokuapp.com/');
 mqtt_client.on('connect', () => {
     console.log('connected to mqtt broker');
     mqtt_client.subscribe('joints')
